@@ -1,0 +1,214 @@
+/* options */
+
+:root{
+    --white-color:rgba(255, 255, 255, 1);
+    --yellow-color:rgba(255, 216, 54, 1);
+    --blue-color:rgba(104, 130, 239, 1);
+    --brown-color:rgba(89, 61, 61, 1);
+    --gray-color: rgba(244, 245, 247, 1);
+}
+body{
+    background-color:rgba(244, 245, 247, 1);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .4s;
+}
+a:hover{
+    background-size: 100% 2px;
+}
+
+/* First block - main page */
+
+.header{
+    font-family: 'Raleway bold', sans-serif;
+    font-weight: bold;
+    margin: 0 50px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    padding-left: 42px;
+    width: 217px;
+    height: 75px;
+}
+.header-logo :hover{
+    cursor: pointer;
+}
+
+.header-navigation{
+    align-self: center;
+    display: flex;
+    padding-right: 90px;
+}
+
+.header-navigation-list {
+    list-style: none;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.header-navigation-list li{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+
+.button-signin{
+    font-family: 'Raleway bold', sans-serif;
+    font-weight: bold;
+    color:white;
+    width: 106px;
+    height: 47px;
+    margin-left: 60px;
+    border: 3px solid white;
+    border-radius: 25px;
+    background: none;
+    transition: all 500ms ease;
+    position: relative;
+}
+.button-signin:hover {
+	color: var(--yellow-color);
+	box-shadow: inset 0 0 0 2px var(--yellow-color);
+}
+
+
+.main {
+    background-image: url(img/Path\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.main-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-box  {
+    color:var(--brown-color);
+    text-align: left;
+    font-family: Raleway medium, sans-serif;
+    font-weight: medium;
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin-left: 92px;
+    margin-top: 130px;
+    font-size: 14px;
+}
+
+.left-box h2{
+    color: var(--yellow-color);
+    margin-bottom: -10px;
+    font-family: Raleway bold, sans-serif;
+    font-weight: bold;
+    font-size: 49px;
+}
+
+.left-box h1{
+    color:var(--blue-color);
+    text-transform:uppercase ;
+    font-family: Raleway bold, sans-serif;
+    font-weight: bold;
+    font-size: 49px;
+}
+
+.right-box {
+    margin-right: 75px;
+    margin-top: 50px;
+}
+
+#book-now{
+    width: 220px;
+    height: 60px;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    background: transparent linear-gradient(90deg, #8DA3FF 0%, #6781EF 100%) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    color:var(--white-color);
+    text-align: center;
+    border: none;
+    margin-top: 65px;
+}
+
+/* menu-box */
+
+.menu {
+}
+.menu-list {
+}
+.yellow-line {
+}
+.menu-box {
+}
+.regularly {
+}
+.regularly-img {
+}
+.regularly-info {
+}
+.regularly-info-header {
+}
+.deep {
+}
+.deep-img {
+}
+.deep-info {
+}
+.deep-info-header {
+}
+.office {
+}
+.office-img {
+}
+.office-info {
+}
+.office-info-header {
+}
+.windows {
+}
+.windows-img {
+}
+.windows-info {
+}
+.windows-info-header {
+}
+.book {
+}
+.book-left-box {
+}
+.cleaner-list {
+}
+.workers-list {
+}
+.worker {
+}
+.person-info {
+}
+.work-info {
+}
+.work-time {
+}
+.price {
+}
+.bubbling-menu {
+}
+.footer {
+}
+.footer-logo {
+}
+.footer-info {
+}
